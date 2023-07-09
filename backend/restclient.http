@@ -1,0 +1,11 @@
+
+GET https://localhost:5000/ HTTP/1.1
+
+###
+POST https://localhost:5000/api/tasks/craete HTTP/1.1
+Content-Type: application/json
+
+{
+	"title":"do groceries",
+	"description":"lorem ipsum dolorq"
+}
