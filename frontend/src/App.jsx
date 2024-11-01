@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const URL = "http://localhost:5000/api";
+const URL = "https://task-manager-backend-qtro.onrender.com/api";
 
 function App() {
   const [tasks, setTasks] = useState([]);
