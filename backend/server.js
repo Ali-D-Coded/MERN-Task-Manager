@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 
 // MongoDB connection
 mongoose
-  .connect("mongodb://localhost:27017/task-manager", {
+  .connect("mongodb+srv://aliallu3xa:Je0G3RMoB6ix76UU@cluster0.fxaol.mongodb.net/task-manager?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
